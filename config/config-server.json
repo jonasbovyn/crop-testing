@@ -1,0 +1,32 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/context.jsonld",
+  "@id": "urn:ldf-server:my",
+  "import": "preset-qpf:config-defaults.json",
+
+  "datasources": [
+    {
+      "@id": "ex:myHdtDatasource1",
+      "@type": "HdtDatasource",
+      "datasourceTitle": "100k triples",
+      "description": "100k WatDiv generated dataset",
+      "datasourcePath": "data100k",
+      "hdtFile": "datasets/dataset100k/dataset.hdt"
+    },
+    {
+      "@id": "ex:myHdtDatasource2",
+      "@type": "HdtDatasource",
+      "datasourceTitle": "1M triples",
+      "description": "1M WatDiv generated dataset",
+      "datasourcePath": "data1M",
+      "hdtFile": "datasets/dataset1M/dataset.hdt"
+    },
+    {
+      "@id": "ex:myHdtDatasource3",
+      "@type": "HdtDatasource",
+      "datasourceTitle": "10M triples",
+      "description": "10M WatDiv generated dataset",
+      "datasourcePath": "data10M",
+      "hdtFile": "datasets/dataset10M/dataset.hdt"
+    }
+  ]
+}
