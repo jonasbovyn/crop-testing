@@ -1,5 +1,6 @@
 # crop-testing
 
+This is the testing repository for https://github.com/jonasbovyn/comunica-crop (the CROP implementation is found in the `feat/crop` branch). To generate the WebAssembly binary, check the https://github.com/jonasbovyn/crop-cpp repository.
 
 ## Setting up the testing environment
 
